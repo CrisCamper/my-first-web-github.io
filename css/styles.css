@@ -2,9 +2,19 @@
     margin: 0;
     padding: 0;
 }
+#h1 {
+    display: block;
+    font-size: em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    padding: 50em auto;
+}
 #contenedor{
     width: 900px;
-    height: 400px;
+    height: 500px;
 
     margin: 0.5em auto;
     padding: 0.5em;
@@ -34,9 +44,27 @@
 }
 #section{
     height: 100%;
-    width: 10%;
+    width: 65%;
     background-color: burlywood;
-    margin-left: 0.5em;
-    border-radius: 15%;
+    margin-left: 1em;
+    border-radius: 1em;
     float: left;
+}
+#aside{
+    height: 100%;
+    width: 30%;
+    background-color: mediumslateblue;
+    margin-right: 0.5em;
+    border-radius: 1em;
+    float: right;
+}
+.article{
+    width: 94%;
+    height: 12%;
+    background-color: lightseagreen;
+    margin: 0.7em;
+    border-radius: 100em;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-inline-start: -0.1em;
 }
