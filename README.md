@@ -1,1 +1,1 @@
-click here to visit page **https://criscamper.github.io/mi-first-web-github.io/**
+click here to visit page **https://criscamper.github.io/my-first-web-github.io/**
