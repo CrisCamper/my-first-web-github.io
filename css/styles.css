@@ -2,19 +2,9 @@
     margin: 0;
     padding: 0;
 }
-#h1 {
-    display: block;
-    font-size: em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    padding: 50em auto;
-}
 #contenedor{
     width: 900px;
-    height: 500px;
+    height: 400px;
 
     margin: 0.5em auto;
     padding: 0.5em;
@@ -25,6 +15,7 @@
     margin: 1em;
     padding: 10px;
     border-radius: 100em;
+    text-align: center;
 }
 #nav{
     height: 10%;
@@ -33,7 +24,7 @@
     border-radius: 100em;
 }
 #contenido{
-    height: 53%;
+    height: 100%;
     margin: 1em;
 }
 #footer{
@@ -44,27 +35,25 @@
 }
 #section{
     height: 100%;
-    width: 65%;
+    width: 67%;
     background-color: burlywood;
-    margin-left: 1em;
+    margin-left: 0.5em;
     border-radius: 1em;
     float: left;
+    line-height: 2em;
 }
 #aside{
     height: 100%;
     width: 30%;
-    background-color: mediumslateblue;
+    background-color: bisque;
     margin-right: 0.5em;
     border-radius: 1em;
     float: right;
 }
 .article{
-    width: 94%;
-    height: 12%;
-    background-color: lightseagreen;
-    margin: 0.7em;
-    border-radius: 100em;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-inline-start: -0.1em;
+    width: 96%;
+    height: 20%;
+    background-color: lightsalmon;
+    margin: 1em;
+    border-radius: 1em;
 }
